@@ -18,7 +18,7 @@ const MovieList = props => {
     };
 
     getMovies();
-  }, []);
+  }, [props]);
 
   return (
     <div className="movie-list">
